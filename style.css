@@ -1,0 +1,85 @@
+/* Body Styles */
+body {
+    background: #3498db; /* Blue background */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    color: #fff; /* White text for better contrast */
+  }
+  
+  /* #weather-container Styles */
+  #weather-container {
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+  }
+  
+  /* Adjustments to Interface Display */
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+  }
+  
+  input {
+    margin-top: 30px;
+  }
+  
+  button {
+    background: #2980b9; /* Adjust button background to a darker blue */
+    color: #fff; /* White text for button */
+    margin-top: 20px;
+  }
+  
+  #temp-div p {
+    font-size: 70px;
+    margin-top: -20px;
+  }
+  
+  #weather-info {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  #weather-icon {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 20px;
+  }
+  
+  #hourly-forecast {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap; /* Wrap hourly items for smaller screens */
+    justify-content: space-between;
+    width: 100%; /* Adjust width as needed */
+  }
+  
+  .hourly-item {
+    flex: 1 0 25%; /* Adjust width for hourly items based on desired layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    color: #fff; /* White text */
+    border-radius: 5px; /* Add a slight border radius for visual separation */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .hourly-item img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+  }
+  
+  #hourly-heading {
+    margin-top: 20px;
+  }
+  
